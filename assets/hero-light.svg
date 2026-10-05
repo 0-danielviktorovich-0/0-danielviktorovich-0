@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Kamyshan — Entrepreneur, Product Builder and Developer</title>
+  <desc id="desc">Technical profile banner for Daniel Kamyshan in Tokyo, focused on AI automation, product engineering, web, mobile and desktop software.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="52%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="0" x2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12"/>
+      <stop offset="55%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0f172a" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="428" rx="26" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="22" y="22" width="1156" height="386" rx="20" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="22" y="22" width="1156" height="386" rx="20" fill="url(#grid)"/>
+  <path d="M22 247 C290 174 483 296 716 198 C877 131 1043 92 1178 127 L1178 408 L22 408 Z" fill="url(#wash)"/>
+
+  <rect x="66" y="58" width="224" height="30" rx="15" fill="#f6f8fa" stroke="#d0d7de"/>
+  <circle cx="84" cy="73" r="4" fill="#2dd4bf"/>
+  <text x="98" y="78" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4">TOKYO · JAPAN</text>
+
+  <text x="66" y="164" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="760" letter-spacing="-1.8">DANIEL KAMYSHAN</text>
+  <text x="68" y="208" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2.5">ENTREPRENEUR · PRODUCT BUILDER · DEVELOPER</text>
+
+  <rect x="68" y="239" width="492" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="68" y="286" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="560">From idea to working product.</text>
+  <text x="68" y="319" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Software · AI automation · Web · Mobile · Desktop</text>
+
+  <g transform="translate(785 75)">
+    <circle cx="142" cy="115" r="91" fill="none" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="142" cy="115" r="61" fill="none" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="142" cy="115" r="6" fill="#8b5cf6"/>
+    <circle cx="71" cy="57" r="7" fill="#58a6ff"/>
+    <circle cx="213" cy="65" r="7" fill="#2dd4bf"/>
+    <circle cx="223" cy="160" r="6" fill="#58a6ff"/>
+    <circle cx="82" cy="184" r="6" fill="#2dd4bf"/>
+    <path d="M77 62 L136 110 M148 110 L207 70 M149 121 L217 157 M136 121 L88 179" stroke="url(#accent)" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>
+    <path d="M23 111 L46 111 M238 111 L261 111 M142 -1 L142 22 M142 208 L142 231" stroke="#d0d7de" stroke-width="1.4"/>
+    <text x="106" y="120" fill="#0f172a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8">BUILD</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.2">
+    <rect x="66" y="354" width="142" height="31" rx="9" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="82" y="374" fill="#57606a">AI AUTOMATION</text>
+    <rect x="218" y="354" width="116" height="31" rx="9" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="234" y="374" fill="#57606a">FULL-STACK</text>
+    <rect x="344" y="354" width="148" height="31" rx="9" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="360" y="374" fill="#57606a">CROSS-PLATFORM</text>
+    <rect x="502" y="354" width="126" height="31" rx="9" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="518" y="374" fill="#57606a">LOCAL-FIRST</text>
+  </g>
+</svg>
