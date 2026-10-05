@@ -7,8 +7,6 @@
 <p align="center">
   <a href="https://danielviktorovich.com/en/"><strong>Personal site</strong></a>
   &nbsp;·&nbsp;
-  <a href="mailto:hello@danielviktorovich.com"><strong>Email</strong></a>
-  &nbsp;·&nbsp;
   <strong>Tokyo, Japan</strong>
 </p>
 
@@ -140,7 +138,7 @@ If you have a process that should be automated, a product that needs an MVP, a l
 
 **Good fits:** freelance / contract builds · MVPs · AI automation · web products · mobile/cross-platform applications · desktop software · integrations · product collaborations · engineering roles
 
-**[Email me](mailto:hello@danielviktorovich.com)** · **[Personal site](https://danielviktorovich.com/en/)**
+**[Personal site](https://danielviktorovich.com/en/)**
 
 <sub>
 This GitHub is the engineering side of my work. For my broader background and other projects, see my personal site.
