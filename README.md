@@ -5,9 +5,15 @@
 </picture>
 
 <p align="center">
-  <a href="https://danielviktorovich.com/en/"><strong>Personal site</strong></a>
+  <a href="#01--selected-work"><strong>Work</strong></a>
   &nbsp;·&nbsp;
-  <strong>Tokyo, Japan</strong>
+  <a href="#02--open-source-contributions"><strong>Open source</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#04--engineering-focus"><strong>Capabilities</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#05--engineering-pulse"><strong>Activity</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://danielviktorovich.com/en/"><strong>Personal site ↗</strong></a>
 </p>
 
 ## I build software that moves ideas into working products.
@@ -27,6 +33,25 @@ I work across **AI automation, full-stack products, web, mobile and desktop soft
 **Applications & systems** — responsive/mobile interfaces, cross-platform app development, desktop software, APIs, integrations, local-first products and developer tools.
 
 The goal is not technology for its own sake. I care about **the business outcome, the user experience, maintainability, and getting from prototype to a dependable product**.
+
+<details>
+<summary><strong>Explore by goal — what could we build?</strong></summary>
+
+<br>
+
+**“I need to automate a process.”**  
+I can help connect APIs, internal systems and LLM tooling into a workflow that removes repetitive work instead of adding another dashboard nobody wants to maintain.
+
+**“I need an MVP or product prototype.”**  
+I can take a rough product idea through interface, backend, integration and deployment decisions to a working vertical slice you can test with real users.
+
+**“I need a web, mobile or desktop application.”**  
+I work across web interfaces and cross-platform application architectures, with an emphasis on reusable product logic and pragmatic delivery.
+
+**“I have an existing system with an annoying technical problem.”**  
+Debugging, integration work and focused upstream fixes are part of how I work too — see the open-source examples below.
+
+</details>
 
 ---
 
@@ -123,7 +148,41 @@ I choose the stack for the product rather than forcing every project into the sa
 
 ---
 
-## 05 / Current focus
+## 05 / Engineering pulse
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg">
+  <img alt="Engineering pulse: two active builds, two upstream merged pull requests, one published CLI crate and four stars on RimLoc." src="./assets/pulse-light.svg">
+</picture>
+
+<details>
+<summary><strong>What these numbers mean</strong></summary>
+
+<br>
+
+- **2 active builds** — RimLoc plus BookKeeper in private development.
+- **2 upstream merges** — accepted contributions in RimSort and anylinuxfs, excluding pull requests in my own repositories.
+- **1 published CLI** — `rimloc-cli` is published on crates.io.
+- **4 RimLoc stars** — current public GitHub stars at the time this card was refreshed.
+
+The card is intentionally built from a small set of verifiable engineering signals rather than vanity metrics.
+
+</details>
+
+### Recent GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=0d1117&color=8b949e&line=8b5cf6&point=2dd4bf&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
+  <img alt="Daniel Kamyshan's recent GitHub activity graph for the last 31 days." src="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
+</picture>
+
+<sub>The activity graph is a live third-party visualization of public GitHub activity. The proof card above is repository-owned and can be generated locally or by GitHub Actions.</sub>
+
+---
+
+## 06 / Current focus
 
 - Shipping **RimLoc** as a stronger cross-platform product.
 - Building **BookKeeper** in private development.
@@ -132,7 +191,7 @@ I choose the stack for the product rather than forcing every project into the sa
 
 ---
 
-## 06 / Have something worth building?
+## 07 / Have something worth building?
 
 If you have a process that should be automated, a product that needs an MVP, a landing page that has to convert, an internal tool your team keeps postponing, or an application that needs to become real — I'm open to talking.
 
