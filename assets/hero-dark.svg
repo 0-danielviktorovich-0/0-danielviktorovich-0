@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
   <title id="title">Daniel Kamyshan — Entrepreneur, Product Builder and Developer</title>
-  <desc id="desc">Daniel Kamyshan in Tokyo. Building AI automation, full-stack, web, mobile and desktop software. Current work: RimLoc and BookKeeper. Two upstream open-source merges and one published CLI crate.</desc>
+  <desc id="desc">Daniel Kamyshan in Tokyo. Building software, AI automation and digital products across web, mobile and desktop.</desc>
   <defs>
     <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#58a6ff"/>
@@ -16,9 +16,9 @@
       <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.038" stroke-width="1"/>
     </pattern>
     <style>
-      .status-pulse { animation: statusPulse 2.4s ease-in-out infinite; transform-origin: center; }
-      @keyframes statusPulse { 0%,100% { opacity:1 } 50% { opacity:.38 } }
-      @media (prefers-reduced-motion: reduce) { .status-pulse { animation:none } }
+      .cursor { animation: blink 1.25s steps(1,end) infinite; }
+      @keyframes blink { 0%,48% { opacity:1 } 49%,100% { opacity:.18 } }
+      @media (prefers-reduced-motion: reduce) { .cursor { animation:none } }
     </style>
   </defs>
 
@@ -29,7 +29,7 @@
 
   <g>
     <rect x="64" y="55" width="208" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
-    <circle cx="82" cy="70" r="4" fill="#2dd4bf" class="status-pulse"/>
+    <circle cx="82" cy="70" r="4" fill="#2dd4bf"/>
     <text x="96" y="75" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.35">TOKYO · UTC+9</text>
 
     <text x="64" y="157" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="760" letter-spacing="-1.8">DANIEL KAMYSHAN</text>
@@ -40,32 +40,29 @@
     <text x="66" y="312" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Software · AI automation · Web · Mobile · Desktop</text>
   </g>
 
-  <g transform="translate(786 54)">
-    <rect x="0" y="0" width="326" height="287" rx="18" fill="#0f1623" stroke="#30363d"/>
-    <text x="22" y="31" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.8">NOW / SHIPPING</text>
+  <g transform="translate(784 54)">
+    <rect x="0" y="0" width="330" height="287" rx="18" fill="#0f1623" stroke="#30363d"/>
+    <text x="22" y="31" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.8">WHAT I DO</text>
 
-    <circle cx="25" cy="67" r="5" fill="#2dd4bf" class="status-pulse"/>
-    <text x="42" y="72" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="650">RimLoc</text>
-    <text x="286" y="72" text-anchor="end" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">ACTIVE</text>
-    <text x="42" y="92" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Rust · Tauri · open source</text>
+    <text x="22" y="72" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.2">BUILD</text>
+    <text x="92" y="72" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650">Products people can use</text>
+    <text x="92" y="93" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">web · mobile · desktop · MVPs</text>
 
-    <circle cx="25" cy="127" r="5" fill="#8b5cf6"/>
-    <text x="42" y="132" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="650">BookKeeper</text>
-    <text x="286" y="132" text-anchor="end" fill="#8b5cf6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">BUILDING</text>
-    <text x="42" y="152" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">local-first · private development</text>
+    <line x1="22" y1="111" x2="308" y2="111" stroke="#30363d"/>
 
-    <line x1="22" y1="178" x2="304" y2="178" stroke="#30363d"/>
-    <text x="22" y="204" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.4">PROOF</text>
+    <text x="22" y="145" fill="#8b5cf6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.2">AUTOMATE</text>
+    <text x="112" y="145" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650">Work that should run itself</text>
+    <text x="112" y="166" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">AI workflows · APIs · integrations</text>
 
-    <text x="22" y="238" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="760">2</text>
-    <text x="55" y="235" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">upstream</text>
-    <text x="55" y="251" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">merges</text>
+    <line x1="22" y1="184" x2="308" y2="184" stroke="#30363d"/>
 
-    <line x1="164" y1="218" x2="164" y2="260" stroke="#30363d"/>
+    <text x="22" y="218" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.2">SHIP</text>
+    <text x="78" y="218" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="650">Vertical slices, not mockups</text>
+    <text x="78" y="239" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">product thinking · testing · delivery</text>
 
-    <text x="184" y="238" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="760">1</text>
-    <text x="217" y="235" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">published</text>
-    <text x="217" y="251" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">CLI crate</text>
+    <rect x="22" y="255" width="286" height="1" fill="#30363d"/>
+    <text x="22" y="278" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" letter-spacing="1.15">OPEN TO SELECTED WORK</text>
+    <rect x="192" y="267" width="7" height="12" rx="1" fill="#2dd4bf" class="cursor"/>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.05">
