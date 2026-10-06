@@ -11,7 +11,7 @@
   &nbsp;·&nbsp;
   <a href="#04--engineering-focus"><strong>Capabilities</strong></a>
   &nbsp;·&nbsp;
-  <a href="#05--engineering-pulse"><strong>Activity</strong></a>
+  <a href="#05--github-activity--engineering-signals"><strong>Activity</strong></a>
   &nbsp;·&nbsp;
   <a href="https://danielviktorovich.com/en/"><strong>Personal site ↗</strong></a>
 </p>
