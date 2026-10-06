@@ -160,18 +160,18 @@ These cards are **live** — they are generated from GitHub data and update as t
   <img width="100%" alt="Live GitHub contribution overview for Daniel Kamyshan." src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0-danielviktorovich-0&theme=github">
 </picture>
 
-### Work patterns
+### GitHub stats & streak
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github_dark&hide_logo=true">
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github&hide_logo=true">
-    <img width="49%" alt="Live GitHub totals: commits, pull requests, issues, stars and repositories contributed to." src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github&hide_logo=true">
+    <img width="49%" alt="Live GitHub totals for commits, pull requests, issues, stars and repositories contributed to." src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github&hide_logo=true">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github_dark&utcOffset=9">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
-    <img width="49%" alt="Live GitHub contribution activity by time of day in Japan Standard Time." src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=github-dark-blue&hide_border=true&mode=daily">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily">
+    <img width="49%" alt="Live GitHub contribution streak statistics." src="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily">
   </picture>
 </p>
 
@@ -190,16 +190,6 @@ These cards are **live** — they are generated from GitHub data and update as t
   </picture>
 </p>
 
-### Contribution streak
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=github-dark-blue&hide_border=true&mode=daily&card_width=900">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily&card_width=900">
-    <img width="100%" alt="Live GitHub contribution streak statistics." src="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily&card_width=900">
-  </picture>
-</p>
-
 ### Recent activity
 
 <picture>
@@ -209,18 +199,19 @@ These cards are **live** — they are generated from GitHub data and update as t
 </picture>
 
 <details>
-<summary><strong>What is live here?</strong></summary>
+<summary><strong>More live analytics — productive time in JST</strong></summary>
 
 <br>
 
-- **Contribution overview** — contribution history and headline GitHub activity.
-- **Stats** — automatically derived commit / PR / issue / star signals.
-- **Productive time** — contribution timing converted to **JST (UTC+9)**.
-- **Languages** — repository-language and commit-language distributions.
-- **Streak** — total contributions plus current and longest contribution streaks.
-- **Recent activity** — current public GitHub activity over time.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github_dark&utcOffset=9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
+    <img width="70%" alt="Live GitHub contribution activity by time of day in Japan Standard Time." src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
+  </picture>
+</p>
 
-The hosted cards currently reflect **public GitHub-visible data**. In the final profile repository, these can be moved to repository-owned GitHub Actions and optionally include private contribution counts without exposing private repository names.
+The hosted cards currently reflect **GitHub-visible data**. In the final profile repository, the same card family can be generated by GitHub Actions with a token so private contribution counts can be included without publishing private repository names, commit messages, issue titles or SHAs.
 
 </details>
 ---
