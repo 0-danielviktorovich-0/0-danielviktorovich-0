@@ -1,9 +1,9 @@
 name: Profile quality gate
 
+# Private preview repositories may have GitHub-hosted runners unavailable.
+# Keep this manual during staging; enable push/pull_request triggers after
+# the final public profile repository is published.
 on:
-  push:
-    branches: ["main"]
-  pull_request:
   workflow_dispatch:
 
 permissions:
