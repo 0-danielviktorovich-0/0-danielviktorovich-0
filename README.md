@@ -148,38 +148,81 @@ I choose the stack for the product rather than forcing every project into the sa
 
 ---
 
-## 05 / Engineering pulse
+## 05 / GitHub activity & engineering signals
+
+These cards are **live** — they are generated from GitHub data and update as the account changes.
+
+### Contribution overview
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pulse-light.svg">
-  <img alt="Engineering pulse: two active builds, two upstream merged pull requests, one published CLI crate and four stars on RimLoc." src="./assets/pulse-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0-danielviktorovich-0&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0-danielviktorovich-0&theme=github">
+  <img width="100%" alt="Live GitHub contribution overview for Daniel Kamyshan." src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0-danielviktorovich-0&theme=github">
+</picture>
+
+### Work patterns
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github_dark&hide_logo=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github&hide_logo=true">
+    <img width="49%" alt="Live GitHub totals: commits, pull requests, issues, stars and repositories contributed to." src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0-danielviktorovich-0&theme=github&hide_logo=true">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github_dark&utcOffset=9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
+    <img width="49%" alt="Live GitHub contribution activity by time of day in Japan Standard Time." src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0-danielviktorovich-0&theme=github&utcOffset=9">
+  </picture>
+</p>
+
+### Languages
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0-danielviktorovich-0&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0-danielviktorovich-0&theme=github">
+    <img width="49%" alt="Live breakdown of public repositories by programming language." src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0-danielviktorovich-0&theme=github">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0-danielviktorovich-0&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0-danielviktorovich-0&theme=github">
+    <img width="49%" alt="Live breakdown of programming languages represented in commits." src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0-danielviktorovich-0&theme=github">
+  </picture>
+</p>
+
+### Contribution streak
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=github-dark-blue&hide_border=true&mode=daily&card_width=900">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily&card_width=900">
+    <img width="100%" alt="Live GitHub contribution streak statistics." src="https://streak-stats.demolab.com?user=0-danielviktorovich-0&theme=default&hide_border=true&mode=daily&card_width=900">
+  </picture>
+</p>
+
+### Recent activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=0d1117&color=8b949e&line=8b5cf6&point=2dd4bf&area=true&hide_border=true&custom_title=Recent%20GitHub%20activity">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=Recent%20GitHub%20activity">
+  <img width="100%" alt="Live graph of recent public GitHub activity." src="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=Recent%20GitHub%20activity">
 </picture>
 
 <details>
-<summary><strong>What these numbers mean</strong></summary>
+<summary><strong>What is live here?</strong></summary>
 
 <br>
 
-- **2 active builds** — RimLoc plus BookKeeper in private development.
-- **2 upstream merges** — accepted contributions in RimSort and anylinuxfs, excluding pull requests in my own repositories.
-- **1 published CLI** — `rimloc-cli` is published on crates.io.
-- **4 RimLoc stars** — current public GitHub stars at the time this card was refreshed.
+- **Contribution overview** — contribution history and headline GitHub activity.
+- **Stats** — automatically derived commit / PR / issue / star signals.
+- **Productive time** — contribution timing converted to **JST (UTC+9)**.
+- **Languages** — repository-language and commit-language distributions.
+- **Streak** — total contributions plus current and longest contribution streaks.
+- **Recent activity** — current public GitHub activity over time.
 
-The card is intentionally built from a small set of verifiable engineering signals rather than vanity metrics.
+The hosted cards currently reflect **public GitHub-visible data**. In the final profile repository, these can be moved to repository-owned GitHub Actions and optionally include private contribution counts without exposing private repository names.
 
 </details>
-
-### Recent GitHub activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=0d1117&color=8b949e&line=8b5cf6&point=2dd4bf&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
-  <img alt="Daniel Kamyshan's recent GitHub activity graph for the last 31 days." src="https://github-readme-activity-graph.vercel.app/graph?username=0-danielviktorovich-0&bg_color=ffffff&color=57606a&line=8250df&point=0f766e&area=true&hide_border=true&custom_title=31-day%20GitHub%20activity">
-</picture>
-
-<sub>The activity graph is a live third-party visualization of public GitHub activity. The proof card above is repository-owned and can be generated locally or by GitHub Actions.</sub>
-
 ---
 
 ## 06 / Current focus
